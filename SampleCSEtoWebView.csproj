@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <RootNamespace>SampleCSEtoWebView</RootNamespace>
+    <Version>1.0</Version>
+    <Title>SampleCSEtoWebView</Title>
+    <Description>Description of SampleCSEtoWebView</Description>
+    <RhinoMacLauncher>/Applications/Rhino 7.app</RhinoMacLauncher>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="RhinoCommon" Version="7.2.21021.7001" IncludeAssets="compile;build" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove=".DS_Store" />
+  </ItemGroup>
+</Project>
